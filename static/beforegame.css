@@ -1,0 +1,21 @@
+@font-face {
+    font-family: MainFont;
+    src: url(Lato-Regular.ttf);
+}
+
+html {
+    background-color: aqua;
+    font-family: MainFont;
+}
+
+.box {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    height: auto;
+    white-space: nowrap;
+    border: solid black;
+    background-color: white;
+    border-radius: 3em;
+    padding-bottom: 50px;
+}

@@ -1,0 +1,35 @@
+@font-face {
+    font-family: MainFont;
+    src: url(Lato-Regular.ttf);
+}
+
+
+html {
+    background-color: aqua;
+    font-family: MainFont;
+}
+
+canvas {
+    background-color: black;
+    display: block;
+    margin: 1em auto;
+}
+
+#info {
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    height: auto;
+    white-space: nowrap;
+    border: solid black;
+    background-color: white;
+    border-radius: 3em;
+    padding-bottom: 20px;
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
+section p {
+    display: inline;
+}

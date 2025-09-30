@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Game</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='beforegame.css') }}" />
+    </head>
+    <body>
+        <main>
+            <section class="box">
+                <section id="title">
+                    <p>This is a zombie hoarding game</p>
+                    <p>Your objective it to kill all of the zombies on screen</p>
+                    <p>using the arrow keys to shoot and increasing the round</p>
+                    <p>On the bottom of the screen you will find useful information</p>
+                    <p>such as health, round number, bullet damage and revives</p>
+                    <p>After each round the number of zombies per round will increase and </p>
+                    <p>you will randomly get an item which will be explained in the bottom of the</p>
+                    <p>screen</p>
+                    <p>You use WASD to walk</p>
+                    <p>The zombies get more powerful each round but so do you</p>
+                    <p>The random drops make each game a bit unique so try it out a few times</p>
+                </section>
+    
+                <section id="button">
+                    <a href="{{ url_for('game') }}">Play game</a>
+                </section>
+    
+            </section>
+        </main>
+    </body>
+</html>

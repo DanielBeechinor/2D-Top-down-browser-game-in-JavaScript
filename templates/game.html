@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Game</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='game.css') }}" />
+        <script src="{{ url_for('static', filename='game.js') }}" type="module"></script>
+    </head>
+    <body>
+        <canvas width="1024" height="640"></canvas>
+        
+        <section id='info'>
+                <p id="round"></p>
+                <p id="health"></p>
+                <p id="totalZombies"></p>
+                <p id="bulletDamage"></p>
+                <p id="revives"></p>
+                <p id="message"></p>
+        </section>
+
+    </body>
+</html>
